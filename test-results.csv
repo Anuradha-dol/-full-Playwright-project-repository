@@ -1,0 +1,2 @@
+TC ID,Test case name,Input length type,Input,Expected output,Actual output,Status,What is covered by the test
+"Pos_Fun_001","Basic greeting conversion","S","kohomadha?","කොහොමද?","අආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්","Fail","Greeting / request / response • Interrogative (question) • S (≤30 characters) • Accuracy validation"

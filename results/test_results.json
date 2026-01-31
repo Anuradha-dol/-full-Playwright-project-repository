@@ -1,0 +1,80 @@
+[
+  {
+    "id": "Pos_Fun_019",
+    "name": "Convert compound sentence",
+    "length": "M",
+    "input": "api kaeema kanna yanavaa saha passe chithrapatayakuth balanavaa.",
+    "expected": "අපි කැම කන්න යනවා සහ පස්සේ චිත්රපටයකුත් බලනවා.",
+    "actual": "FeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishapi kaeema kanna yanavaa saha passe chithrapatayakuth balanavaa.බලනවාබලණවා.බලනවා.බළණවා.බළනවා.ඹලණවා.ඹලනවා.ඹළණවා.ඹළනවා.Sinhalaඅපි කෑම කන්න යනවා සහ පස්සෙ චිත්‍රපටයකුත් බලනවා.🔁 Translate🗑️ ClearEnglish",
+    "status": "Partial",
+    "executionTime": "5505ms",
+    "category": "Word combination / phrase pattern • Compound sentence • M (31–299 characters) • Accuracy validation",
+    "error": "",
+    "timestamp": "2026-01-30T18:42:20.759Z"
+  },
+  {
+    "id": "Pos_Fun_020",
+    "name": "Convert complex conditional sentence",
+    "length": "M",
+    "input": "oyaa enavaanam mama balan innavaa.",
+    "expected": "ඔයා එනවානම් මම බලන් ඉන්නවා.",
+    "actual": "FeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishoyaa enavaanam mama balan innavaa.ඉන්නවාඉණ්ණවා.ඉණ්නවා.ඉන්ණවා.ඉන්නවා.Sinhalaඔයා එනවානම් මම බලන් ඉන්නවා.🔁 Translate🗑️ ClearEnglish",
+    "status": "Pass",
+    "executionTime": "4100ms",
+    "category": "Daily language usage • Complex sentence • M (31–299 characters) • Accuracy validation",
+    "error": "",
+    "timestamp": "2026-01-30T18:42:27.955Z"
+  },
+  {
+    "id": "Pos_Fun_021",
+    "name": "Convert informal phrasing",
+    "length": "S",
+    "input": "eeyi, ooka dhiyan.",
+    "expected": "එයි, ඕක ඩියන්.",
+    "actual": "FeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlisheeyi, ooka dhiyan.දියනදියනාදියණියදියනයාදියනෙතදියනාල්ලනදියනොගැසූඩියන්ඩේ‍්‍රඩියන්ඩි‍්‍රයාදියනොගැසූ හුනුදියණ.දියන.ධියණ.ධියන.Sinhalaඒයි, ඕක දියන්.🔁 Translate🗑️ ClearEnglish",
+    "status": "Partial",
+    "executionTime": "2962ms",
+    "category": "Slang / informal language • Imperative (command) • S (≤30 characters) • Accuracy validation",
+    "error": "",
+    "timestamp": "2026-01-30T18:42:33.872Z"
+  },
+  {
+    "id": "Pos_Fun_022",
+    "name": "Convert polite phrasing",
+    "length": "M",
+    "input": "karuNaakaralaa mata podi udhavvak karanna puLuvandha?",
+    "expected": "කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?",
+    "actual": "FeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishkaruNaakaralaa mata podi udhavvak karanna puLuvandha?Sinhala🔁 Translate🗑️ ClearEnglish",
+    "status": "Partial",
+    "executionTime": "5074ms",
+    "category": "Greeting / request / response • Interrogative (question) • M (31–299 characters) • Accuracy validation",
+    "error": "",
+    "timestamp": "2026-01-30T18:42:41.971Z"
+  },
+  {
+    "id": "Pos_Fun_023",
+    "name": "Convert slang expression",
+    "length": "S",
+    "input": "ela machan! supiri!!",
+    "expected": "එල මචන්! සුපිරි!!",
+    "actual": "FeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishela machan! supiri!!Sinhala🔁 Translate🗑️ ClearEnglish",
+    "status": "Partial",
+    "executionTime": "3074ms",
+    "category": "Slang / informal language • Simple sentence • S (≤30 characters) • Robustness validation",
+    "error": "",
+    "timestamp": "2026-01-30T18:42:48.039Z"
+  },
+  {
+    "id": "Pos_Fun_024",
+    "name": "Convert time format",
+    "length": "S",
+    "input": "7.30 AM",
+    "expected": "7.30 AM",
+    "actual": "FeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlish7.30 AMSinhala🔁 Translate🗑️ ClearEnglish",
+    "status": "Pass",
+    "executionTime": "2505ms",
+    "category": "Punctuation / numbers • Simple sentence • S (≤30 characters) • Accuracy validation",
+    "error": "",
+    "timestamp": "2026-01-30T18:42:53.637Z"
+  }
+]

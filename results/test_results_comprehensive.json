@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "project": "Singlish to Sinhala Translator Testing",
+    "date": "2026-01-30T13:31:45.623Z",
+    "totalTests": 5,
+    "passed": 4,
+    "partialPass": 1,
+    "failed": 0
+  },
+  "testResults": [
+    {
+      "id": "Neg_Fun_007",
+      "name": "Test mixed language with incorrect structure",
+      "length": "S",
+      "input": "I mama going gedhara now.",
+      "expected": "I මම going ගෙදර now.",
+      "actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishI mama going gedhara now.Sinhala🔁 Translate🗑️ ClearEnglish",
+      "status": "Pass",
+      "category": "Mixed Singlish + English • Simple sentence • S (≤30 characters) • Robustness validation",
+      "error": "",
+      "timestamp": "2026-01-30T13:31:24.149Z"
+    },
+    {
+      "id": "Neg_Fun_008",
+      "name": "Test repeated characters for emphasis",
+      "length": "S",
+      "input": "hari hari kiyala kiyavala",
+      "expected": "හරි හරි කියල කියවල",
+      "actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishhari hari kiyala kiyavalaSinhala🔁 Translate🗑️ ClearEnglish",
+      "status": "Pass",
+      "category": "Word combination / phrase pattern • Simple sentence • S (≤30 characters) • Robustness validation",
+      "error": "",
+      "timestamp": "2026-01-30T13:31:27.872Z"
+    },
+    {
+      "id": "Neg_Fun_009",
+      "name": "Test non-standard abbreviation",
+      "length": "M",
+      "input": "mama O/L exam ekata padanam.",
+      "expected": "මම O/L exam එකට පඩනම්.",
+      "actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama O/L exam ekata padanam.Sinhala🔁 Translate🗑️ ClearEnglish",
+      "status": "Pass",
+      "category": "Mixed Singlish + English • Simple sentence • M (31–299 characters) • Robustness validation",
+      "error": "",
+      "timestamp": "2026-01-30T13:31:32.346Z"
+    },
+    {
+      "id": "Neg_Fun_010",
+      "name": "Test very long concatenated word",
+      "length": "L",
+      "input": "mamagedharayannakotapasseofficeataennakotapassekotahagenaenava",
+      "expected": "මමගෙදරයන්නකොටපස්සෙඔෆිස්අටෙන්නකොටපස්සෙකොටහගෙනෙනවා",
+      "actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishmamagedharayannakotapasseofficeataennakotapassekotahagenaenavaSinhala🔁 Translate🗑️ ClearEnglish",
+      "status": "Pass",
+      "category": "Word combination / phrase pattern • Simple sentence • L (≥300 characters) • Robustness validation",
+      "error": "",
+      "timestamp": "2026-01-30T13:31:37.750Z"
+    },
+    {
+      "id": "Pos_UI_001",
+      "name": "Test real-time output updates",
+      "length": "S",
+      "input": "mama gedhara yanavaa",
+      "expected": "මම ගෙදර යනවා",
+      "actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama gedhara yanavaaSinhala🔁 Translate🗑️ ClearEnglish",
+      "status": "Partial Pass",
+      "category": "Empty/cleared input handling • Simple sentence • S (≤30 characters) • Real-time output update behavior",
+      "error": "",
+      "timestamp": "2026-01-30T13:31:45.319Z"
+    }
+  ]
+}

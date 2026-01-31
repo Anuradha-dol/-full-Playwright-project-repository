@@ -1,0 +1,68 @@
+[
+  {
+    "TC ID": "Pos_Fun_019",
+    "Test case name": "Mixed English technical term",
+    "Input length type": "M",
+    "Input": "Zoom meeting ekak thiyennee.",
+    "Expected output": "Zoom meeting එකක් තියෙන්නේ.",
+    "Actual output": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishZoom meeting ekak thiyennee.Sinhala🔁 Translate🗑️ ClearEnglish",
+    "Status": "Fail",
+    "Accuracy justification/Description of issue type": "Incorrect conversion",
+    "What is covered by the test": "Mixed Singlish + English • Simple sentence • M (31–299 characters) • Accuracy validation"
+  },
+  {
+    "TC ID": "Pos_Fun_020",
+    "Test case name": "With punctuation",
+    "Input length type": "S",
+    "Input": "hari, mama karannam!",
+    "Expected output": "හරි, මම කරන්නම්!",
+    "Actual output": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishhari, mama karannam!Sinhala🔁 Translate🗑️ ClearEnglish",
+    "Status": "Fail",
+    "Accuracy justification/Description of issue type": "Incorrect conversion",
+    "What is covered by the test": "Punctuation / numbers • Simple sentence • S (≤30 characters) • Accuracy validation"
+  },
+  {
+    "TC ID": "Pos_Fun_021",
+    "Test case name": "Currency format",
+    "Input length type": "S",
+    "Input": "Rs. 5343",
+    "Expected output": "රු. 5343",
+    "Actual output": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣SinglishRs. 5343Sinhala🔁 Translate🗑️ ClearEnglish",
+    "Status": "Fail",
+    "Accuracy justification/Description of issue type": "Incorrect conversion",
+    "What is covered by the test": "Punctuation / numbers • Simple sentence • S (≤30 characters) • Accuracy validation"
+  },
+  {
+    "TC ID": "Pos_Fun_022",
+    "Test case name": "Short slang expression",
+    "Input length type": "S",
+    "Input": "ela machan! supiri!!",
+    "Expected output": "එල මචන්! සුපිරි!!",
+    "Actual output": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishela machan! supiri!!Sinhala🔁 Translate🗑️ ClearEnglish",
+    "Status": "Fail",
+    "Accuracy justification/Description of issue type": "Incorrect conversion",
+    "What is covered by the test": "Slang / informal language • Simple sentence • S (≤30 characters) • Robustness validation"
+  },
+  {
+    "TC ID": "Pos_Fun_023",
+    "Test case name": "Medium length sentence",
+    "Input length type": "M",
+    "Input": "mama gedhara yanavaa. mama ofise enavaa. mama vadakaranna yanavaa.",
+    "Expected output": "මම ගෙදර යනවා. මම ඔෆිස් එනවා. මම වැඩකරන්න යනවා.",
+    "Actual output": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmama gedhara yanavaa. mama ofise enavaa. mama vadakaranna yanavaa.Sinhala🔁 Translate🗑️ ClearEnglish",
+    "Status": "Fail",
+    "Accuracy justification/Description of issue type": "Incorrect conversion",
+    "What is covered by the test": "Daily language usage • Simple sentence • M (31–299 characters) • Accuracy validation"
+  },
+  {
+    "TC ID": "Pos_Fun_024",
+    "Test case name": "Long paragraph input",
+    "Input length type": "L",
+    "Input": "udheeta mama kaempas ekata yanavaa. gihin lekchars gihin dhavalta kaeema kaala oyi paeththata ennam ethakota puluvan maath ekkama raeeta kotuve paeththe gihin enna . matath nivaduvak naethi ekee raekatavath gihin enna yamu.godaak raeevunath avulak naehaenee . iita passe udhee naegitalaa vaedata yana ekanee karanna thinne needha?ehenam heta 5:30 vedhdhi set vemu aevilla inna ithuru tika api heta kathaa karamu bosaa. ehenam mama gihin ennam . heta ehenam anivaaren enna. ",
+    "Expected output": "උදේට මම කැම්පස් එකට යනවා. ගිහින් ලෙක්චර්ස් ගිහින් දවල්ට කෑම කාල ඔයි පැත්තට එන්නම් එතකොට පුලුවන් මාත් එක්කම රෑට කොටුවෙ පැත්තෙ ගිහින් එන්න . මටත් නිවඩුවක් නැති එකේ රැකටවත් ගිහින් එන්න යමු.ගොඩාක් රෑවුනත් අවුලක් නැහැනේ . ඊට පස්සෙ උදේ නැගිටලා වැඩට යන එකනේ කරන්න තින්නෙ නේද?එහෙනම් හෙට 5:30 වෙද්දි සෙට් වෙමු ඇවිල්ල ඉන්න ඉතුරු ටික අපි හෙට කතා කරමු බොසා. එහෙනම් මම ගිහින් එන්නම් . හෙට එහෙනම් අනිවාරෙන් එන්න. ",
+    "Actual output": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishudheeta mama kaempas ekata yanavaa. gihin lekchars gihin dhavalta kaeema kaala oyi paeththata ennam ethakota puluvan maath ekkama raeeta kotuve paeththe gihin enna . matath nivaduvak naethi ekee raekatavath gihin enna yamu.godaak raeevunath avulak naehaenee . iita passe udhee naegitalaa vaedata yana ekanee karanna thinne needha?ehenam heta 5:30 vedhdhi set vemu aevilla inna ithuru tika api heta kathaa karamu bosaa. ehenam mama gihin ennam . heta ehenam anivaaren enna. Sinhala🔁 Translate🗑️ ClearEnglish",
+    "Status": "Fail",
+    "Accuracy justification/Description of issue type": "Incorrect conversion",
+    "What is covered by the test": "Formatting (spaces / line breaks / paragraph) • Compound sentence • L (≥300 characters) • Robustness validation"
+  }
+]
